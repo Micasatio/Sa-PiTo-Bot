@@ -25,9 +25,9 @@ status: link.status,
 Pesan: eror}
 return notFond}}
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `${mg}𝙀𝙨𝙘𝙧𝙞𝙗𝙖 𝙡𝙖 𝙥𝙖𝙡𝙖𝙗𝙧𝙖 𝙘𝙡𝙖𝙫𝙚 𝙥𝙖𝙧𝙖 𝙗𝙪𝙨𝙘𝙖𝙧\n𝙀𝙟𝙚𝙢𝙥𝙡𝙤\n*${usedPrefix + command} Luna*`
+if (!text) throw `${mg}Escriba la palabra clave para buscar\n𝙀𝙟𝙚𝙢𝙥𝙡𝙤\n*${usedPrefix + command} Sapito*`
 wikipedia(`${text}`).then(res => {
-let info = `𝑬𝒏𝒄𝒐𝒏𝒕𝒓𝒆́ 𝒆𝒔𝒕𝒐:\n\n` + res.result.isi
+let info = `Encuentre ezto:\n\n` + res.result.isi
 conn.sendHydrated(m.chat, info, wm, null, null, null, [
 ['𝙈𝙚𝙣𝙪 𝘽𝙪𝙨𝙦𝙪𝙚𝙙𝙖𝙨 🔎', '#buscarmenu'],
 ['𝙈𝙚𝙣𝙪 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙤 ✨', '.allmenu'],
