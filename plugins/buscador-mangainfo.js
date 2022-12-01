@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 let handler = async (m, { conn, text }) => {
-if (!text) throw `${mg}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝙐𝙉 𝙈𝘼𝙉𝙂𝘼`
+if (!text) throw `${mg}𝙀scriba el nombre de un magna`
 let res = await fetch(global.API('https://api.jikan.moe', '/v3/search/manga', { q: text }))
 if (!res.ok) throw await res.text()
 let json = await res.json()
@@ -10,31 +10,31 @@ let res2 = await fetch(`https://myanimelist.net/manga/${mal_id}`)
 if (!res2.ok) throw await res2.text()
 let html = await res2.text()
 let animeingfo = 
-`𝙏𝙄𝙏𝙐𝙇𝙊
+`titulo
 ❣ ${title}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝘾𝘼𝙋𝙄𝙏𝙐𝙇𝙊𝙎
+Capitulos
 ❣ ${chapters}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙑𝙊𝙇𝙐𝙈𝙀𝙉𝙀𝙎
+Volumenes
 ❣ ${volumes}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙁𝙀𝘾𝙃𝘼 𝘿𝙀 𝙄𝙉𝙄𝘾𝙄𝙊
+𝙁𝙀cha de inicio 
 ❣ ${start_date}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙁𝙀𝘾𝙃𝘼 𝙁𝙄𝙉𝘼𝙇
+𝙁𝙀cha final 
 ❣ ${end_date}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙋𝙐𝙉𝙏𝘼𝙅𝙀
+Puntaje 
 ❣ ${score}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙈𝙄𝙀𝙈𝘽𝙍𝙊𝙎
+Miembro
 ❣ ${members}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙎𝙄𝙉𝙊𝙋𝙎𝙄𝙎 𝙀𝙉𝙂𝙇𝙄𝙎𝙃
+𝙎ipnosis english 
 ❣ ${synopsis}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙀𝙉𝙇𝘼𝘾𝙀
+𝙀lace 
 ❣ ${url}`
 await conn.sendFile(m.chat, image_url, '', animeingfo, m) 
 let info = `💖 *𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙧𝙩𝙚 𝙨𝙤𝙗𝙧𝙚 𝙡𝙖𝙨 𝙣𝙤𝙫𝙚𝙙𝙖𝙙𝙚𝙨 𝙮 𝙧𝙚𝙘𝙪𝙚𝙧𝙙𝙖 𝙩𝙚𝙣𝙚𝙧 𝙡𝙖 𝙪́𝙡𝙩𝙞𝙢𝙖 𝙫𝙚𝙧𝙨𝙞𝙤́𝙣.*
