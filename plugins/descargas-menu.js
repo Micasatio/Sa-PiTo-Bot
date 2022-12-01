@@ -72,15 +72,15 @@ let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardi
 let menuA = `🪄 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭━━〔 *${wm}* 〕━━⬣
 ┃🪄🪄🪄🪄🪄🪄🪄🪄🪄
-┃❏  *𝙁𝙚𝙘𝙝𝙖  ➺ ${week}, ${date}*
-┃❏  *𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖  ➺ ${exp}*
-┃❏  *𝙉𝙞𝙫𝙚𝙡 ➺ ${level}*
-┃❏  *𝙍𝙤𝙡 ➺* ${role}
-┃❏  *𝙇𝙤𝙡𝙞𝙘𝙤𝙞𝙣𝙨 ➺ $ ${money}*
-┃❏  *𝙐𝙨𝙪𝙖𝙧𝙞𝙤 ➺ ${Object.keys(global.db.data.users).length}*
+┃❏  *Fecha  ➺ ${week}, ${date}*
+┃❏  *Experiencia  ➺ ${exp}*
+┃❏  *Nivel ➺ ${level}*
+┃❏  *Rol  ➺* ${role}
+┃❏  *Sapito Monedas ➺ $ ${money}*
+┃❏  *Usuario ➺ ${Object.keys(global.db.data.users).length}*
 ┃🪄🪄🪄🪄🪄🪄🪄🪄🪄
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃〔 𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖 〕
+┃〔 Descarga 〕
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🚀➺ _${usedPrefix}imagen | image *texto*_
 ┃🚀➺ _${usedPrefix}pinterest | dlpinterest *texto*_
@@ -89,6 +89,7 @@ let menuB = `╭━━〔 *${wm}* 〕━━⬣
 ┃🚀➺ _${usedPrefix}play.1 *texto o link*_
 ┃🚀➺ _${usedPrefix}play.2 *texto o link*_ 
 ┃🚀➺ _${usedPrefix}ytmp3 | yta *link*_
+┃              |Sapitobot|
 ┃🚀➺ _${usedPrefix}ytmp4 | ytv *link*_
 ┃🚀➺ _${usedPrefix}facebook | fb *link*_
 ┃🚀➺ _${usedPrefix}instagram *link video o imagen*_
