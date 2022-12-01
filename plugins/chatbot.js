@@ -3,17 +3,17 @@ handler.all = async function (m) {
 let chat = global.db.data.chats[m.chat]
 
 if (/^todo bien$/i.test(m.text) ) { //sem prefixo
-    conn.reply(m.chat, `𝑩𝒊𝒆𝒏 𝒄𝒂𝒑𝒐 😎 𝒚 𝒕𝒖`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+    conn.reply(m.chat, `Bien bro 😎 y tu`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 }
 
 if (/^e$/i.test(m.text) ) { //sem prefixo
-    conn.reply(m.chat, `𝑸𝒖𝒆 𝒃𝒖𝒆𝒏𝒐 𝒔𝒂𝒃𝒆𝒓 𝒍𝒂 𝒍𝒆𝒕𝒓𝒂 𝒆`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+    conn.reply(m.chat, `Que bueno saber la letra e`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 }
 
-if (/^5492266466080|972529277406$/i.test(m.text) ) { //sem prefixo
-    conn.reply(m.chat, `[❗] 𝑵𝒐 𝒆𝒕𝒊𝒒𝒖𝒆𝒕𝒆𝒔  [❗] 𝑨 𝒎𝒊 𝒄𝒓𝒆𝒂𝒅𝒐𝒓 𝒔𝒊 𝒕𝒊𝒆𝒏𝒆 𝒂𝒍𝒈𝒖𝒏𝒂 𝒄𝒐𝒏𝒔𝒖𝒍𝒕𝒂 𝒐 𝒅𝒖𝒅𝒂, 𝒉𝒂𝒃𝒍𝒂𝒎𝒆 𝒆𝒍 𝒑𝒗 𝒔𝒐𝒍𝒐 𝒑𝒐𝒓 𝒕𝒆𝒎𝒂 𝒅𝒆 𝒃𝒐𝒕`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+if (/^595983186566|524531106422$/i.test(m.text) ) { //sem prefixo
+    conn.reply(m.chat, `[❗] No Etiquetes  [❗] A mi creador si tiene alguna consulta o duda, hablame al pv sólo por tema de bot`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 }
 
@@ -24,7 +24,7 @@ if (/^¿que es un bot?|que es un bot$/i.test(m.text) ) { //sem prefixo
 
 - 𝐏𝐚𝐫𝐚 𝐯𝐞𝐫 𝐞𝐥 𝐦𝐞𝐧𝐮́ 𝐝𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐮𝐞𝐝𝐞𝐬 𝐮𝐬𝐚𝐫 #menu
 
-*「 𝙏͚͜͝͠𝙝͚͜͝͠𝙚͚͜͝͠ ͚͜͝͠Loli𝘽͚͜͝͠𝙤͚͜͝͠𝙩͚͜͝͠-MD͚͜͝͠  」`, m) //wm, null, [['Menu', '#menu']], m)
+*「 𝙏͚͜͝͠𝙝͚͜͝͠𝙚͚͜͝͠ ͚͜͝͠Sapito𝘽͚͜͝͠𝙤͚͜͝͠𝙩͚͜͝͠-MD͚͜͝͠  」`, m) //wm, null, [['Menu', '#menu']], m)
 
 }
 
