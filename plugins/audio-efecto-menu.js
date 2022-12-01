@@ -69,17 +69,17 @@ let username = conn.getName(who)
 
 let menu = `
 ╭━━〔 *${wm}* 〕━━⬣
-┃ *¡𝙃𝙤𝙡𝙖!* ${username} ✨
+┃ *ola* ${username} ✨
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🎧🎧🎧🎧🎧🎧🎧🎧🎧
-┃❏ *𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖  ➺ ${exp}*
-┃❏ *𝙉𝙞𝙫𝙚𝙡  ➺ ${level}*
-┃❏ *𝙍𝙤𝙡 ➺* ${role}
-┃❏ *𝙇𝙤𝙡𝙞𝙘𝙤𝙞𝙣𝙨 ➺ $ ${money}*
-┃❏ *𝙐𝙨𝙪𝙖𝙧𝙞𝙤  ➺ ${Object.keys(global.db.data.users).length}* 
+┃❏ *Experiencia  ➺ ${exp}*
+┃❏ *Nivel  ➺ ${level}*
+┃❏ *Rol ➺* ${role}
+┃❏ *Sapito Monedas ➺ $ ${money}*
+┃❏ *Usuarios  ➺ ${Object.keys(global.db.data.users).length}* 
 ┃🎧🎧🎧🎧🎧🎧🎧🎧🎧
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃〔 𝙀𝙛𝙚𝙘𝙩𝙤𝙨 𝙖𝙪𝙙𝙞𝙤𝙨 〕
+┃〔 Efecto audios 〕
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🧰 _${usedPrefix}bass_
 ┃🧰 _${usedPrefix}blown_
@@ -94,7 +94,7 @@ let menu = `
 ┃🧰 _${usedPrefix}smooth_
 ┃🧰 _${usedPrefix}tupai_
 ╰━━━━━━━━━━━━━━━⬣`.trim()
-conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', null, null, [
+conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/Micasatio', 'Sapito_Bot', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],
 ['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ⚡', '#menu']
 ], m,)
