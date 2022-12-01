@@ -7,26 +7,26 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━━ ⊰ 
 global.owner = [
-  ['5492266466080', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', true],
-  ['5492266613038', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', true],
-  ['51984498676', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', true],
-  ['593968585383'],
-  ['5492266573414'],
-  ['529612005844'] 
+  ['595983186566', 'Sapito', true],
+  ['524531106422', 'Sapito', true],
+  ['595983186566', 'Sapito', true],
+  ['524531106422'],
+  ['595983186566'],
+  ['524531106422'] 
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = ['50495745934'] 
-global.prems = ['595986172767', '5493704555464'], 
+global.mods = ['595983186566'] 
+global.prems = ['+52 453 110 6422', '595983186566'], 
   
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫
+//Agrega el Idioma que quieres que tenga Sapito
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = es  //Idioma de 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de Sapito, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -104,7 +104,7 @@ global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
 global.packname = 'toma tu stickers'
-global.author = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
+global.author = 'Sapito_BOT'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -114,65 +114,65 @@ global.author = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
 global.vs = '1.3.7'
 global.version = vs
 
-global.gt = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
+global.gt = 'Sapito_Bot'
 global.gatabot = gt
 
-global.yt = 'https://www.youtube.com/@TheLoliBot-MD'
+global.yt = 'no'
 global.youtube = yt
 
-global.ig = 'https://www.tiktok.com/@thelolibot_md'
+global.ig = 'no'
 global.gatadiosig = ig
 
-global.md = 'https://github.com/elrebelde21/The-LoliBot-MD'
+global.md = 'https://github.com/Micasatio'
 global.gatabot = md
 
-global.nna = 'https://chat.whatsapp.com/JESaesjOEcB6wnGX0QYT9o'
+global.nna = 'https://chat.whatsapp.com/CntRn9MHu6oI29HWU6tVrC'
 global.nnagrupo = nna //grupo informacion sobre el bot
 
-global.nn = 'https://chat.whatsapp.com/Ei87TDT7fsI3Q3p5MnM9sW'
+global.nn = 'https://chat.whatsapp.com/CntRn9MHu6oI29HWU6tVrC'
 global.nngrupo = nn //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/JZ0Ls4Fqc4b5pirH1BYvYK'
+global.nnn = 'https://chat.whatsapp.com/GxxpMawzPaW6MR0p2vH432'
 global.nnngrupo = nnn //Grupo 2
 
-global.nnnt = 'https://chat.whatsapp.com/Gt1fF9OihuyKcTP4zg3Lhe'
+global.nnnt = 'https://chat.whatsapp.com/I1vjFTvfZQbJI4aw0Vj5dk'
 global.nnntgrupo = nnnt //Grupo 3
 
-global.nnntt = 'https://chat.whatsapp.com/JQvATGowiEz6p9qdNF5p3W'
+global.nnntt = 'https://chat.whatsapp.com/I1vjFTvfZQbJI4aw0Vj5dk'
 global.nnnttgrupo = nnntt //Grupo 4
 
-global.nnnttt = 'https://chat.whatsapp.com/DNJ4Ppm5ysn3fhjGflrr0J'
+global.nnnttt = 'https://chat.whatsapp.com/I1vjFTvfZQbJI4aw0Vj5dk'
 global.nnntttgrupo = nnnttt //Grupo ayuda sobfe el bot
 
 global.paypal = ''
 global.donar = paypal
 
-global.asistencia = 'Wa.me/5492266466080' //Dudas? escríbeme...
+global.asistencia = '+595 983 186566' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
-global.rg = '╰⊱✅⊱ *𝙧𝙚𝙨𝙪𝙡𝙩𝙖𝙙𝙤𝙨* ⊱✅⊱╮\n\n'
+global.rg = '╰⊱✅⊱ *Resultados uwu* ⊱✅⊱╮\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝙖𝙙𝙫𝙚𝙧𝙩𝙚𝙣𝙘𝙞𝙖* ⊱⚠️⊱╮\n\n'
+global.ag = '╰⊱⚠️⊱ *epaa* ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙞𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞𝙤𝙣* ⊱⊱╮\n\n'
+global.iig = '╰⊱❕⊱ *𝙞𝙣𝙛𝙤* ⊱⊱╮\n\n'
 global.informacion = iig
 
 global.fg = '╰⊱❌⊱ *𝙚𝙧𝙧𝙤𝙧* ⊱❌⊱╮\n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙡𝙤 𝙪𝙨𝙤 𝙢𝙖𝙡* ⊱❗️⊱╮\n\n'
+global.mg = '╰⊱❗️⊱ *Mal* ⊱❗️⊱╮\n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙧𝙚𝙥𝙤𝙧𝙩𝙚* ⊱📩⊱╮\n\n'
+global.eeg = '╰⊱📩⊱ *Reporte xd* ⊱📩⊱╮\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙚𝙭𝙞𝙩𝙤* ⊱💚⊱╮\n\n'
+global.eg = '╰⊱💚⊱ *Bien* ⊱💚⊱╮\n\n'
 global.exito = eg
 
 //𝙀𝙅𝙀𝙈𝙋𝙇𝙊
@@ -181,13 +181,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información ⋅.━━━━ ⊰
 
-global.wm = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
-global.igfg = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
+global.wm = 'Sapito_Bot'
+global.igfg = 'Sapito_Bot'
 global.wait = '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando..._ ▬▬▬▬▬▬▭*'
-global.nomorown = '5492266466080'
+global.nomorown = '595983186566'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -251,7 +251,7 @@ global.dmenuf = '*╰┅────────┅✦*'
 global.htjava = '⫹⫺'
 
 global.htki = '*⭑•̩̩͙⊱•••• ☪*'
-global.htka = '*☪ ••••̩̩͙⊰•⭑*'
+global.htka = '*👻 ••••̩̩͙⊰•⭑*'
 
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
