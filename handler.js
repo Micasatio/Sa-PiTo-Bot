@@ -1173,7 +1173,7 @@ export async function handler(chatUpdate) {
                     m.reply('Exp limit') // Hehehe
                 else               
                 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-                    this.reply(m.chat, `🫥 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚 𝙇𝙤𝙡𝙞𝘾𝙤𝙞𝙣𝙨 `, m)
+                    this.reply(m.chat, `🫥 No tienes Sapito Monedas `, m)
                     continue     
 		}
 			
@@ -1243,7 +1243,7 @@ export async function handler(chatUpdate) {
                         m.reply(+m.limit + lenguajeGB.smsCont8())
                 }
                  if (m.money)
-                        m.reply(+m.money + ' 𝙇𝙤𝙡𝙞𝘾𝙤𝙞𝙣𝙨 𝙪𝙨𝙖𝙙𝙤𝙨')
+                        m.reply(+m.money + ' Sapito Moneda usada')
               
                 break
             }
@@ -1305,7 +1305,7 @@ export async function handler(chatUpdate) {
 	await this.readMessages([m.key])
 	    
         if (!db.data.chats[m.chat].reaction && m.isGroup) throw 0
-        if (!m.fromMem && m.text.match(/(el rebelde|@5219996125657|@5492266466080|admin del bot|Bot|LoliBot|lolibot|The LoliBot-md|lolibot-md|The LoliBot-MD|has|ato|ido|ura|des|able|sub|izo|ita|con|.-.|._.|:)|:(|:v|v:|o.o|;v|v;|v':|:'v)/gi)) {
+        if (!m.fromMem && m.text.match(/(SNT|@595983186566|@524531106422|admin del bot|Bot|sapitoBot|sapitobot|sapito|sapitoBot| sapitoBot-MD|has|ato|ido|ura|des|able|sub|izo|ita|con|.-.|._.|:)|:(|:v|v:|o.o|;v|v;|v':|:'v)/gi)) {
         let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
         this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
         function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
