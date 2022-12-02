@@ -91,11 +91,9 @@
 ----
 ## `𝐄𝐃𝐈𝐓𝐎𝐑 𝐘 𝐏𝐎𝐑𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓` 
 <a href="https://github.com/Micasatio"><img src="https://github.com/Micasatio.png" width="200" height="300" alt="Micasatio"/></a>
-
+<a href="https://github.com/AlexisWithlogic"><img src="https://github.com/AlexisWithlogic" width="200" height="300" alt="AlexisWithlogic"/></a>
 ----
 
-### colaborador
-[![AlexisWithlogic](https://github.com/AlexisWithlogic.png?size=88)](https://github.com/AlexisWithlogic) 
 
 ----
 
