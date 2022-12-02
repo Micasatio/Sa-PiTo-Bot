@@ -10,9 +10,9 @@ global.owner = [
   ['524531106422', 'Sapito', true],
   ['524531106422', 'Sapito', true],
   ['524531106422', 'Sapito', true],
-  ['595983186566'],
-  ['595983186566'],
-  ['595983186566'] 
+  ['524531106422'],
+  ['524531106422'],
+  ['524531106422'] 
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -26,7 +26,7 @@ global.prems = ['+52 453 110 6422', '595983186566'],
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = pt  //Idioma de Sapito, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de Sapito, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
