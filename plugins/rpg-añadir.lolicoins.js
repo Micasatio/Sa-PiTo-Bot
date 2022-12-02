@@ -12,19 +12,19 @@ let gatacoins = parseInt(txt)
 let money = gatacoins
 let pjk = Math.ceil(gatacoins * pajak)
 money += pjk
-if (money < 1) throw `${mg}𝑬𝒍 𝒏𝒖́𝒎𝒆𝒓𝒐 𝒎𝒊́𝒏𝒊𝒎𝒐 𝒅𝒆 𝒍𝒐𝒍𝒊𝒄𝒐𝒊𝒏𝒔 𝒆𝒔 *1*`
+if (money < 1) throw `${mg}𝑬𝒍 numero minimo 𝒅𝒆 Sapito Monedas 𝒆𝒔 *1*`
 let users = global.db.data.users
 users[who].money += gatacoins
   //m.reply(`≡ *𝚇𝙿 𝙰𝙽̃𝙰𝙳𝙸𝙳𝙾*
 //┌──────────────
 //▢  *𝚃𝚘𝚝𝚊𝚕:* ${xp}
 //└──────────────`)
-conn.sendHydrated(m.chat, `╭━━━[ 𝑳𝒐𝒍𝒊𝒄𝒐𝒊𝒏𝒔 🐈 ]━━━⬣\n┃\n┃ღ 𝑷𝒂𝒓𝒂:\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ 𝑺𝒆 𝒍𝒆 𝒂𝒏̃𝒂𝒅𝒊𝒐́\n┃ღ *${gatacoins} loliCoin(s)* 🐈\n┃\n╰━━━━━━━━━━━━━━⬣`, wm, null, md, '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', null, null, [
+conn.sendHydrated(m.chat, `╭━━━[ Sapito Monedas 🐈 ]━━━⬣\n┃\n┃ღ Para:\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ Se le añadio\n┃ღ *${gatacoins} loliCoin(s)* 🐈\n┃\n╰━━━━━━━━━━━━━━⬣`, wm, null, md, 'Sapito_Bot', null, null, [
 ['💗 𝙈𝙚𝙣𝙪 𝘼𝙫𝙚𝙣𝙩𝙪𝙧𝙖 💗', '.rpgmenu'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']], m)
 }
 handler.help = ['addgb <@user>']
 handler.tags = ['lolicoins']
-handler.command = ['añadirlolicoins', 'añadirloli', 'añadircoins', 'darlolicoins', 'darloli', 'darcoins'] 
+handler.command = ['añadirsapiomonedas', 'añadirsapitomonedas', 'añadirsapito', 'darsapitomoneda', 'darsapitomonedas', 'darsapitomonedas'] 
 handler.rowner = true
 export default handler
