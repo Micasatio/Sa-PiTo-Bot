@@ -7,17 +7,17 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━━ ⊰ 
 global.owner = [
+  ['595983186566', 'Sapito', true],
   ['524531106422', 'Sapito', true],
-  ['524531106422', 'Sapito', true],
-  ['524531106422', 'Sapito', true],
+  ['595983186566', 'Sapito', true],
   ['524531106422'],
   ['524531106422'],
-  ['524531106422'] 
+  ['595983186566'] 
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = ['524531106422'] 
-global.prems = ['524531106422', '595983186566'], 
+global.mods = ['595983186566'] 
+global.prems = ['595983186566', ''], 
   
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
