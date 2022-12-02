@@ -26,12 +26,12 @@ if (user.joincount < 1) throw `*¡𝒀𝒂 𝒏𝒐 𝒕𝒊𝒆𝒏𝒆 𝒕�
  if (args[1] > 3) throw `*𝑴𝒊́𝒏𝒊𝒎𝒐 3 𝒕𝒐𝒌𝒆𝒏(S) 𝑷𝒂𝒓𝒂 𝒑𝒐𝒅𝒆𝒓 𝒊𝒏𝒗𝒊𝒕𝒂𝒓 𝒂 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝒃𝒐𝒕-𝑴𝑫*` //Solo ingresará si tiene 3 Token(s)
  
 let res = await conn.groupAcceptInvite(code) 
-conn.reply(m.chat, `😛 𝙎𝙚 𝙝𝙖 𝙪𝙣𝙞𝙙𝙤 𝙡𝙤𝙡𝙞𝙗𝙤𝙩 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙖𝙢𝙚𝙣𝙩𝙚 𝙖𝙡 𝙜𝙧𝙪𝙥𝙤!!!*`, m).then(async() => { 
+conn.reply(m.chat, `😛 𝙎𝙚 𝙝𝙖 𝙪𝙣𝙞𝙙𝙤 sapito 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙖𝙢𝙚𝙣𝙩𝙚 𝙖𝙡 𝙜𝙧𝙪𝙥𝙤!!!*`, m).then(async() => { 
   user.joincount -= args[1] 
  var jumlahHari = 600000 * args[1] // 10 minutos | Usuarios
  var now = new Date() * 1
 //let res = await conn.groupAcceptInvite(code) 
-//conn.reply(m.chat, `${eg}😻 *𝑺𝒆 𝒉𝒂 𝒖𝒏𝒊𝒅𝒐 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝒃𝒐𝒕-𝑴𝑫 𝒂𝒍 𝒈𝒓𝒖𝒑𝒐!!!*`, m).then(async() => {
+//conn.reply(m.chat, `${eg}😻 *𝑺𝒆 𝒉𝒂 𝒖𝒏𝒊𝒅𝒐 sapito 𝒂𝒍 𝒈𝒓𝒖𝒑𝒐!!!*`, m).then(async() => {
  //var jumlahHari = 600000 * 1 // 10 minutos | Usuarios
 // var now = new Date() * 1 
  
@@ -55,7 +55,7 @@ if (user.joincount === 0 ) throw `${ag}*¡𝒀𝒂 𝒏𝒐 𝒕𝒊𝒆𝒏𝒆
 if (!linkRegex.test(args[0])) throw `${fg}𝑬𝒏𝒍𝒂𝒄𝒆 𝒏𝒐 𝒗𝒂́𝒍𝒊𝒅𝒐 .` //Aquí 
 
   let res = await conn.groupAcceptInvite(code) 
-  conn.reply(m.chat, `😛 𝙎𝙚 𝙝𝙖 𝙪𝙣𝙞𝙙𝙤 𝙡𝙤𝙡𝙞𝙗𝙤𝙩 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙖𝙢𝙚𝙣𝙩𝙚 𝙖𝙡 𝙜𝙧𝙪𝙥𝙤!!!`, m).then(async() => { //Si el Owner se une al Grupo no habrá temporizador
+  conn.reply(m.chat, `😛 𝙎𝙚 𝙝𝙖 𝙪𝙣𝙞𝙙𝙤 sapito 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙖𝙢𝙚𝙣𝙩𝙚 𝙖𝙡 𝙜𝙧𝙪𝙥𝙤!!!`, m).then(async() => { //Si el Owner se une al Grupo no habrá temporizador
 let img = 'https://i.imgur.com/8fK4h6F.jpg'
  var jumlahHari = 600000 * args[1] // 10 minutos | Owner
  var now = new Date() * 1
