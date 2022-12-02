@@ -72,12 +72,12 @@ let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardi
 let menuA = `🪅 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭━〔 *${wm}* 〕━⬣
 ┃⚒️⚒️⚒️⚒️⚒️⚒️⚒️⚒️⚒️
-┃❏ *𝙁𝙚𝙘𝙝𝙖 ➺ ${week}, ${date}*
-┃❏ *𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖 ➺ ${exp}*
-┃❏ *𝙉𝙞𝙫𝙚𝙡 ➺ ${level}*
-┃❏ *𝙍𝙤𝙡 ➺* ${role}
-┃❏ *𝙇𝙤𝙡𝙞𝙘𝙤𝙞𝙣𝙨 ➺ $ ${money}*
-┃❏ *𝙐𝙨𝙪𝙖𝙧𝙞𝙤 ➺ ${Object.keys(global.db.data.users).length}* 
+┃❏ *Fecha ➺ ${week}, ${date}*
+┃❏ *Experiencia ➺ ${exp}*
+┃❏ *Nivel ➺ ${level}*
+┃❏ *Ro𝙡 ➺* ${role}
+┃❏ *Sapito Monedas ➺ $ ${money}*
+┃❏ *Usuario ➺ ${Object.keys(global.db.data.users).length}* 
 ┃⚒️⚒️⚒️⚒️⚒️⚒️⚒️⚒️⚒️
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ ${lenguajeGB['smsTex21']()} ⚗️
@@ -96,6 +96,7 @@ let menuB = `╭━〔 *${wm}* 〕━⬣
 ┃⚗️➺ _${usedPrefix}top | lb | leaderboard_
 ┃⚗️➺ _${usedPrefix}nivel | level | lvl_
 ┃⚗️➺ _${usedPrefix}rol | rango_
+┃           |SAPITO_BOT|
 ┃⚗️➺ _${usedPrefix}inventario | inventory_
 ┃⚗️➺ _${usedPrefix}aventura | adventure_
 ┃⚗️➺ _${usedPrefix}caza | cazar | hunt_
