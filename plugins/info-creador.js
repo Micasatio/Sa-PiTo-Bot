@@ -2,17 +2,17 @@ import fs from 'fs'
 function handler(m, { conn }) {
 let vn = './media/creador.mp3'
 let text = `
-*𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙤* 
-*Wa.me/5492266466080 (no bot)*
-*wa.me/51984498676 (bot)*
-*wa.me/529612005844 (bot²)*
+*Contacto* 
+*Wa.me/595983186566 (no bot)*
+*wa.me/524531106422 (no bot)*
+*wa.me/999999 (bot)*
 `.trim()   
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫',
+title: 'Sapito_Bot',
 body: '𝐂𝐫𝐞𝐚𝐝𝐨𝐫',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://wa.me/5492266466080`}}})
+sourceUrl: `https://wa.me/595983186566`}}})
   
 //const data = global.owner.filter(([id, isCreator]) => id && isCreator)
 //this.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
