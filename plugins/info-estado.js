@@ -1,6 +1,6 @@
 /**
-POR FAVOR TENGAN LA AMABILIDAD Y BONDAD DE NO CAMBIAR MÍNIMAMENTE LOS CRÉDITOS DE LOLIBOT-MD, 
-SI VAS A AÑADIR TUS DATOS O CRÉDITOS, ESTA BIEN. PERO NO QUITEN LOS QUE YA ESTAN DE LOLIBOT-MD, GRACIAS 
+POR FAVOR TENGAN LA AMABILIDAD Y BONDAD DE NO CAMBIAR MÍNIMAMENTE LOS CRÉDITOS DE Sapito_Bot, 
+SI VAS A AÑADIR TUS DATOS O CRÉDITOS, ESTA BIEN. PERO NO QUITEN LOS QUE YA ESTAN DE Sapito_Bot, GRACIAS 
 **/
 let handler = async (m, { conn, command, usedPrefix }) => {
 let picture = './media/menus/Menu1.jpg'
@@ -12,20 +12,16 @@ _muptime = await new Promise(resolve => { process.once('message', resolve)
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado =`
-╭━━━━[ *𝙀𝙎𝙏𝘼𝘿𝙊* ]━━━━━⬣
-┃ *¡𝙃𝙤𝙡𝙖 𝙘𝙤𝙢𝙤 𝙚𝙨𝙩𝙖!* ${name}✨ 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+╭━━━━[ *Estado* ]━━━━━⬣
+┃ *¡𝙃𝙤𝙡𝙖!* ${name}✨ 
 ┃ *ミ🤖 Estado del Bot 🤖彡*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *=> Bot activo ✅*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *=> Bot uso público ✅️*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃=> 𝘼𝙘𝙩𝙞𝙫𝙤 𝙙𝙪𝙧𝙖𝙣𝙩𝙚
 ┃=> ${uptime} ✅
 ╰━━━━━━━━━━━━━━━━━━⬣`.trim()
 
-conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/elrebelde21/The-LoliBot-MD', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', null, null, [
+conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/Micasatio', 'Sapito_Bot', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤', '.allmenu'],
 ['𝙈𝙚𝙣𝙪 𝘼𝙪𝙙𝙞𝙤𝙨́', '#audios']
 ], m,)}
