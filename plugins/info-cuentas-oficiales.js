@@ -4,10 +4,10 @@ let str = `
 🔰 𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤 𝙖𝙡 𝙡𝙖𝙨 𝙘𝙪𝙚𝙣𝙩𝙖𝙨 𝙤𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
  𝙉𝙪́𝙢𝙚𝙧𝙤 𝙙𝙚𝙡 𝙗𝙤𝙩 𝙤𝙛𝙘
-🔰 *wa.me/51984498676*
-🔰 *wa.me/5492266573414*
-🔰 *wa.me/5492266573416*
-🔰 *wa.me/529612005844*
+🔰 *wa.me/*
+🔰 *wa.me/*
+🔰 *wa.me/*
+🔰 *wa.me/*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ 𝙂𝙞𝙩𝙝𝙪𝙗
 *${md}*
@@ -25,21 +25,21 @@ let str = `
  *${nna}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ 𝙂𝙧𝙪𝙥𝙤 𝙖𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 𝙛𝙖𝙘𝙚𝙗𝙤𝙤𝙠
-*https://facebook.com/groups/721802642266362/*
+*Pronto*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ 𝙂𝙧𝙪𝙥𝙤 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢
-*https://t.me/+EcdN9fktnQQwY2Ex*
+*PRONTO*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ *tiktok*
- *https://www.tiktok.com/@thelolibot_md*
+ *PRONTO*
  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✅ 𝘾𝙖𝙣𝙖𝙡 𝙙𝙚𝙡 𝙔𝙤𝙪𝙏𝙪𝙗𝙚 𝙤𝙛𝙞𝙘𝙞𝙖𝙡 𝙙𝙚𝙡 𝙗𝙤𝙩
-*${yt}*
+PRONTO
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 𝙎𝙞 𝙩𝙞𝙚𝙣𝙚𝙣 𝙙𝙪𝙙𝙖𝙨, 𝙨𝙪𝙜𝙚𝙧𝙚𝙣𝙘𝙞𝙖𝙨, 𝙤 𝙥𝙧𝙚𝙜𝙪𝙣𝙩𝙖𝙨 𝗲𝘀𝗰𝗿𝗶𝗯𝗶 𝗽𝗼𝗿 𝗲𝗹 𝗴𝗿𝘂𝗽𝗼
 `.trim()
   
-conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/elrebelde21/The-LoliBot-MD', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', null, null, [
+conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/Micasatio', 'Sapito_Bot', null, null, [
 ['𝙂𝙧𝙪𝙥𝙤𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨  ✅', '.grupos'],
 ['𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🔰', '#owner'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪 ☘️', '/menu']
