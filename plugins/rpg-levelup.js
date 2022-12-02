@@ -37,7 +37,7 @@ let user = global.db.data.users[m.sender]
 ┃ *𝑭𝑬𝑪𝑯𝑨:* *${new Date().toLocaleString('id-ID')}*
 ╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
 
-*𝒄𝒖𝒂𝒏𝒕𝒐 𝒎𝒂́𝒔 𝒊𝒏𝒕𝒆𝒓𝒂𝒄𝒕𝒖́𝒆𝒔 𝒄𝒐𝒏 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝒃𝒐𝒕-𝑴𝑫 𝒎𝒂𝒚𝒐𝒓 𝒔𝒆𝒓𝒂́ 𝒕𝒖 𝒏𝒊𝒗𝒆𝒍!!_*
+*si quieres subir de nivel más rápido pasa pack!!_*
 `.trim()
         try {
             const img = await levelup(teks, user.level)
