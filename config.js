@@ -7,8 +7,8 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━━ ⊰ 
 global.owner = [
-  ['595983186566', 'Sapito', true],
   ['524531106422', 'Sapito', true],
+  ['595983186566', 'Sapito', true],
   ['595983186566', 'Sapito', true],
   ['595983186566'],
   ['595983186566'],
@@ -26,7 +26,7 @@ global.prems = ['+52 453 110 6422', '595983186566'],
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = es  //Idioma de Sapito, Ejemplo: es | en | pt...
+global.lenguajeGB = en  //Idioma de Sapito, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
