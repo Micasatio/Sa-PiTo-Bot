@@ -72,15 +72,15 @@ let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardi
 let menuA = `✨ ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭━〔 *${wm}* 〕━⬣
 ┃✨✨✨✨✨✨✨✨✨
-┃❏ *𝙁𝙚𝙘𝙝𝙖 ➺ ${week}, ${date}*
-┃❏ *𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖 ➺ ${exp}*
-┃❏ *𝙉𝙞𝙫𝙚𝙡 ➺ ${level}*
-┃❏ *𝙍𝙤𝙡 ➺* ${role}
-┃❏ *𝙇𝙤𝙡𝙞𝙘𝙤𝙞𝙣𝙨 ➺ $ ${money}*
-┃❏ *𝙐𝙨𝙪𝙖𝙧𝙞𝙤  ➺ ${Object.keys(global.db.data.users).length}* 
+┃❏ *Fesha ➺ ${week}, ${date}*
+┃❏ *Experiencia ➺ ${exp}*
+┃❏ *Nivel ➺ ${level}*
+┃❏ *Rol ➺* ${role}
+┃❏ *Sapito Monedas ➺ $ ${money}*
+┃❏ *Usuario  ➺ ${Object.keys(global.db.data.users).length}* 
 ┃✨✨✨✨✨✨✨✨✨
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃〔 𝙈𝙚𝙣𝙪 𝙚𝙛𝙚𝙘𝙩𝙤 𝙮 𝙡𝙤𝙜𝙤𝙨  〕
+┃〔 Menú efecto y logos  〕
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🔆 _${usedPrefix}logos *efecto texto*_
 ┃⛺ _${usedPrefix}simpcard *@tag*_
