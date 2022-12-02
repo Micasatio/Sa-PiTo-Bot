@@ -16,7 +16,7 @@ global.owner = [
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = ['595983186566'] 
+global.mods = ['524531106422'] 
 global.prems = ['+52 453 110 6422', '595983186566'], 
   
   
@@ -26,7 +26,7 @@ global.prems = ['+52 453 110 6422', '595983186566'],
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = id  //Idioma de Sapito, Ejemplo: es | en | pt...
+global.lenguajeGB = pt  //Idioma de Sapito, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
