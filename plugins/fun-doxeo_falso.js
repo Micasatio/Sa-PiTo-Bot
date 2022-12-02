@@ -41,9 +41,9 @@ let ip = `*${pickRandom(['','','','','','','','','','','','','','','','','','','
 let old = performance.now()
 let neww = performance.now()
 let speed = `${neww - old}`
-let doxeo = `*✅ 𝑷𝒆𝒓𝒔𝒐𝒏𝒂 𝒉𝒂𝒄𝒌𝒆𝒂𝒅𝒂 𝒄𝒐𝒏 𝒆́𝒙𝒊𝒕𝒐*\n\n*𝑻𝒊𝒆𝒎𝒑𝒐: ${speed} 𝑺𝒆𝒈𝒖𝒏𝒅𝒐𝒔!*
+let doxeo = `*✅ Persona hackeada con éxito *\n\n*𝑻𝒊𝒆𝒎𝒑𝒐: ${speed} 𝑺𝒆𝒈𝒖𝒏𝒅𝒐𝒔!*
 
-*𝑹𝒆𝒔𝒖𝒍𝒕𝒂𝒅𝒐𝒔:*
+*Resultado𝒔:*
 
 *Nombre:* ${text}
 *Ip:* ${ip}
