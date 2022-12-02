@@ -45,8 +45,8 @@
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/elrebelde21/The-LoliBot-MD
-> cd The-LoliBot-MD
+> git clone https://github.com/Micasatio/Sa-PiTo-Bot
+> cd Sa-PiTo-Bot
 > npm install
 > yarn install 
 > npm install
@@ -63,7 +63,7 @@
 ```bash
 𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐎𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐔𝐍𝐎 𝐏𝐎𝐑 𝐔𝐍𝐎:
 > cd 
-> cd The-LoliBot-MD
+> cd Sa-PiTo-Bot
 > npm start
 ```
 ----
@@ -72,7 +72,7 @@
 ```bash
 𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐎𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐔𝐍𝐎 𝐏𝐎𝐑 𝐔𝐍𝐎:
 > cd 
-> cd The-LoliBot-MD
+> cd Sa-PiTo-Bot 
 > rm -rf session.data.json
 > npm start
 ```
